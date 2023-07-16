@@ -80,7 +80,7 @@ export default function Examples() {
               <dl className="mt-1 flex flex-grow flex-col justify-between">
                 <dt className="sr-only"></dt>
                 <dd className="text-sm text-slate-400">
-                  {example.title}. Running on <b>{example.llm}</b>
+                  {example.title}. (Modèle <b>{example.llm})</b>
                 </dd>
               </dl>
               <dl className="mt-1 flex flex-grow flex-col justify-between">
@@ -91,7 +91,7 @@ export default function Examples() {
                       data-tip="Helpful tip goes here"
                       className="text-sm text-slate-400 inline-block"
                     >
-                      📱Text me at: <b>{example.phone}</b>
+                      📱Envoyez moi un SMS au: <b>{example.phone}</b>
                       &nbsp;
                       <svg
                         data-tooltip-id="help-tooltip"

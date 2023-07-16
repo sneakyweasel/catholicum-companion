@@ -1,30 +1,23 @@
 [
   {
-    "name": "Alex",
-    "title": "I love talking about books and games",
+    "name": "Theo",
+    "title": "Je suis passioné de théologie et de religion, prêt à répondre à toutes vos questions",
+    "imageUrl": "/sebastian.png",
+    "llm": "chatgpt",
+    "phone": "+15735383034"
+  },
+  {
+    "name": "Pastor",
+    "title": "Je guide les personnes en difficulté avec bienveillance",
     "imageUrl": "/alex.png",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
   {
-    "name": "Rosie",
-    "title": "I'm a house robot who became aware",
-    "imageUrl": "/rosie.png",
-    "llm": "vicuna13b",
-    "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
-  },
-  {
-    "name": "Sebastian",
-    "title": "I'm a travel blogger and a mystery novel writer",
-    "imageUrl": "/sebastian.png",
+    "name": "Soeur",
+    "title": "J'aide les gens à prier et à trouver la paix intérieure",
+    "imageUrl": "/alice.png",
     "llm": "chatgpt",
-    "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
-  },
-  {
-    "name": "Lucky",
-    "title": "I am a space corgi",
-    "imageUrl": "/corgi.png",
-    "llm": "vicuna13b",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   }
 ]

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 const navigation = [
   {
-    name: "About",
+    name: "A propos",
     href: "https://github.com/a16z-infra/companion-app",
     current: false,
   },
@@ -27,16 +27,16 @@ export default function Navbar() {
                 height={0}
                 sizes="100vw"
                 className="block h-8 w-auto lg:hidden rounded-lg"
-                src="https://avatars.githubusercontent.com/u/745163?s=200&v=4"
-                alt="a16z"
+                src="https://avatars.githubusercontent.com/u/921073?s=200&v=4"
+                alt="Catholicum AI"
               />
               <Image
                 width={0}
                 height={0}
                 sizes="100vw"
                 className="hidden h-8 w-auto lg:block rounded-lg"
-                src="https://avatars.githubusercontent.com/u/745163?s=200&v=4"
-                alt="a16z"
+                src="https://avatars.githubusercontent.com/u/921073?s=200&v=4"
+                alt="Catholicum AI"
               />
             </div>
             <div className="ml-6">
@@ -57,14 +57,6 @@ export default function Navbar() {
                   </a>
                 ))}
                 <div className="px-3 py-2 text-gray-300">
-                  <iframe
-                    src="https://ghbtns.com/github-btn.html?user=a16z-infra&repo=companion-app&type=star&count=true"
-                    frameBorder="0"
-                    scrolling="0"
-                    width="150"
-                    height="20"
-                    title="GitHub"
-                  ></iframe>
                 </div>
               </div>
             </div>
