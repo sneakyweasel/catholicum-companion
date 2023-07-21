@@ -2,21 +2,21 @@
   {
     "name": "Catechiste",
     "title": "Assistant de recherche pour la catéchèse: amical, pédagogue et patient.",
-    "imageUrl": "/rosace3.jpg",
+    "imageUrl": "/rosa1.png",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
   {
     "name": "Theologique",
     "title": "Assistant de recherche théologique: rigoureux, précis et sourcé.",
-    "imageUrl": "/rosace1.jpg",
+    "imageUrl": "/rosa2.png",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
   {
     "name": "Culturel",
     "title": "Assistant de recherche culturelle et historique: documenté, curieux et ouvert.",
-    "imageUrl": "/rosace2.jpg",
+    "imageUrl": "/rosa3.png",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   }
