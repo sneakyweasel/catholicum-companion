@@ -32,7 +32,7 @@ export default function Navbar() {
                 height={0}
                 sizes="100vw"
                 className="block h-8 w-auto lg:hidden rounded-lg"
-                src="/../public/logo_spi.png"
+                src="/logo_spi.png"
                 alt="Catholicum AI"
               />
               <Image
@@ -40,7 +40,7 @@ export default function Navbar() {
                 height={0}
                 sizes="100vw"
                 className="hidden h-8 w-auto lg:block rounded-lg"
-                src="/../public/logo_spi.png"
+                src="/logo_spi.png"
                 alt="Catholicum AI"
               />
             </div>
