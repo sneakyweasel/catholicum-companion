@@ -5,7 +5,12 @@ import Link from "next/link";
 const navigation = [
   {
     name: "A propos",
-    href: "https://github.com/a16z-infra/companion-app",
+    href: "https://www.serviceproinfo.fr/",
+    current: false,
+  },
+  {
+    name: "Equipe",
+    href: "https://www.serviceproinfo.fr/",
     current: false,
   },
 ];
@@ -27,7 +32,7 @@ export default function Navbar() {
                 height={0}
                 sizes="100vw"
                 className="block h-8 w-auto lg:hidden rounded-lg"
-                src="https://avatars.githubusercontent.com/u/921073?s=200&v=4"
+                src="/../public/logo_spi.png"
                 alt="Catholicum AI"
               />
               <Image
@@ -35,7 +40,7 @@ export default function Navbar() {
                 height={0}
                 sizes="100vw"
                 className="hidden h-8 w-auto lg:block rounded-lg"
-                src="https://avatars.githubusercontent.com/u/921073?s=200&v=4"
+                src="/../public/logo_spi.png"
                 alt="Catholicum AI"
               />
             </div>
