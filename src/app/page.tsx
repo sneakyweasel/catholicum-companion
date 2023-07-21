@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
 
         <p className="mx-auto mt-4 max-w-xl text-center text-xl leading-8 text-slate-400">
-          Voici nos compagnons IA pour vous aider à prier, à méditer et à trouver des réponses sur la foi catholique.
+          Voici nos assistants de recherche IA pour vous aider à trouver des réponses sur la foi catholique.
         </p>
 
         <Examples />

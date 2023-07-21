@@ -1,22 +1,22 @@
 [
   {
-    "name": "Theo",
-    "title": "Je suis passioné de théologie et de religion, prêt à répondre à toutes vos questions",
-    "imageUrl": "/sebastian.png",
-    "llm": "chatgpt",
-    "phone": "+15735383034"
-  },
-  {
-    "name": "Pastor",
-    "title": "Je guide les personnes en difficulté avec bienveillance",
-    "imageUrl": "/alex.png",
+    "name": "Catechiste",
+    "title": "Assistant de recherche pour la catéchèse: amical, pédagogue et patient.",
+    "imageUrl": "/rosace3.jpg",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
   {
-    "name": "Soeur",
-    "title": "J'aide les gens à prier et à trouver la paix intérieure",
-    "imageUrl": "/alice.png",
+    "name": "Theologique",
+    "title": "Assistant de recherche théologique: rigoureux, précis et sourcé.",
+    "imageUrl": "/rosace1.jpg",
+    "llm": "chatgpt",
+    "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
+  },
+  {
+    "name": "Culturel",
+    "title": "Assistant de recherche culturelle et historique: documenté, curieux et ouvert.",
+    "imageUrl": "/rosace2.jpg",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   }

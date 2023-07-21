@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Catholicum AI",
-  description: "Companions IA catholiques",
+  description: "Assistants de recherche catholiques",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="fr">
         <body className={inter.className}>{children}</body>
       </html>
     </ClerkProvider>
