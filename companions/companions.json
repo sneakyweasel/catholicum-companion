@@ -1,22 +1,29 @@
 [
   {
     "name": "Catechiste",
-    "title": "Assistant de recherche pour la catéchèse: amical, pédagogue et patient.",
+    "title": "Assistant de recherche pour la catéchèse: amical, pédagogue et patient",
     "imageUrl": "/rosa1.png",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
   {
     "name": "Theologique",
-    "title": "Assistant de recherche théologique: rigoureux, précis et sourcé.",
+    "title": "Assistant de recherche théologique: rigoureux, précis et sourcé",
     "imageUrl": "/rosa2.png",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
   {
     "name": "Culturel",
-    "title": "Assistant de recherche culturelle et historique: documenté, curieux et ouvert.",
+    "title": "Assistant de recherche culturelle et historique: documenté, curieux et ouvert",
     "imageUrl": "/rosa3.png",
+    "llm": "chatgpt",
+    "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
+  },
+  {
+    "name": "Nature",
+    "title": "Assistant de recherche GPT-4 sans modifications",
+    "imageUrl": "/rosa4.png",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   }
