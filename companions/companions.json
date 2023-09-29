@@ -2,7 +2,7 @@
   {
     "name": "Catechiste",
     "title": "Assistant de recherche pour la catéchèse: amical, pédagogue et patient",
-    "imageUrl": "/rosa1.png",
+    "imageUrl": "/rosa5.jpeg",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
@@ -21,9 +21,9 @@
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   },
   {
-    "name": "Nature",
+    "name": "Original",
     "title": "Assistant de recherche GPT-4 sans modifications",
-    "imageUrl": "/rosa4.png",
+    "imageUrl": "/rosa4.jpeg",
     "llm": "chatgpt",
     "phone": "OPTIONAL_COMPANION_PHONE_NUMBER"
   }
