@@ -93,7 +93,7 @@ export default function QAModal({
                     </div>
                     {completion && (
                       <div className="mt-2">
-                        <p className="text-sm text-gray-200 break-all">{completion}</p>
+                        <p className="text-sm text-gray-200 whitespace-pre-line">{completion}</p>
                       </div>
                     )}
 

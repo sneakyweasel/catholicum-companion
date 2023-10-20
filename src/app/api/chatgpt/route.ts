@@ -148,7 +148,6 @@ export async function POST(req: Request) {
   );
   console.log("chatHistoryRecord", chatHistoryRecord);
   if (isText) {
-    // result!.text = result!.text.replace(/[\n\r]/g, '<br><br>');
     return NextResponse.json(result!.text);
   }
   return new StreamingTextResponse(stream);
