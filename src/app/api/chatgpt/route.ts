@@ -120,10 +120,11 @@ export async function POST(req: Request) {
 
     ${preamble}
 
-  Below are relevant details about ${name}'s past
+  Below are relevant details found in the catholic cathechism:
+  
   ${relevantHistory}
   
-  Below is a relevant conversation history
+  Below is a relevant conversation history:
 
   ${recentChatHistory}`);
 
@@ -139,6 +140,7 @@ export async function POST(req: Request) {
     })
     .catch(console.error);
 
+  console.log("RAG", relevantHistory);
   console.log("result", result);
   const chatHistoryRecord = await memoryManager.writeToHistory(
     result!.text + "\n",
@@ -146,6 +148,7 @@ export async function POST(req: Request) {
   );
   console.log("chatHistoryRecord", chatHistoryRecord);
   if (isText) {
+    // result!.text = result!.text.replace(/[\n\r]/g, '<br><br>');
     return NextResponse.json(result!.text);
   }
   return new StreamingTextResponse(stream);
